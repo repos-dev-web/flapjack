@@ -17,6 +17,18 @@ Visit port 3000 and edit `server.tsx`
 
 ---
 
+### Demo
+
+
+
+https://github.com/tireymorris/hyperwave/assets/3528600/69cd73fe-39fe-4ad1-8de8-b6353e2b848e
+
+
+
+
+---
+
+
 ### Example
 
 This is the endpoint serving our initial landing page:
