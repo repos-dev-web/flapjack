@@ -30,7 +30,7 @@ export default function Layout({ title, children, currentPath }: Props) {
       <body class="bg-gray-100 font-lato m-0 text-base">
         <header class="border-b-solid border-b-1 fixed sticky flex w-full gap-16 border-slate-200 bg-white py-3 pl-10 pr-4 leading-5">
           <a href="/" class="no-underline">
-            <h1>Hyperwave 🌊</h1>
+            <h1>hyperwave 🌊</h1>
           </a>
           <div class="relative hidden md:block">
             <Input
