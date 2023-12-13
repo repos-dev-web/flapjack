@@ -21,18 +21,18 @@ app.get("/", async ({ html }) => {
 
   return html(
     <section class="flex flex-col gap-4">
-      <div class="text-md bg-blue-100 self-start rounded-md px-10 py-2 shadow-sm">
+      <div class="text-md self-start rounded-md bg-blue-100 px-10 py-2 shadow-sm">
         <p>Hi, {me.first_name}!</p>
         <p>Email: {me.email}</p>
       </div>
 
       <h3>Change Info</h3>
       <form
-        class="bg-palette-section text-palette-textBody flex w-96 flex-col gap-4 p-4 shadow-md"
+        class="bg-palette-section text-palette-textBody flex w-full flex-col gap-4 p-4 shadow-md md:w-96"
         hx-post={`/editUser/${me.email}`}
         hx-target="closest section"
       >
-        <div class="flex justify-between">
+        <div class="flex flex-col justify-between md:flex-row">
           <label>Email Address</label>
           <Input
             class="bg-palette-highlight! sm:ml-4"
@@ -41,7 +41,7 @@ app.get("/", async ({ html }) => {
             name="email"
           />
         </div>
-        <div class="flex justify-between">
+        <div class="flex flex-col justify-between md:flex-row">
           <label>First Name</label>
           <Input
             class="bg-palette-highlight! sm:ml-4"
@@ -50,7 +50,7 @@ app.get("/", async ({ html }) => {
             name="firstName"
           />
         </div>
-        <div class="flex justify-between">
+        <div class="flex flex-col justify-between md:flex-row">
           <label>Last Name</label>
           <Input
             class="bg-palette-highlight! sm:ml-4"

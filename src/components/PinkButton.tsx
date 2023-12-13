@@ -11,7 +11,7 @@ export default function PinkButton({
 }: Props) {
   return (
     <button
-      class={`bg-red-400 hover:bg-red-400 text-red-100 flex cursor-pointer items-center justify-center gap-3 rounded-md border-none px-4 py-2 text-base font-bold shadow-md hover:text-white ${className}`}
+      class={`flex cursor-pointer items-center justify-center gap-3 rounded-md border-none bg-red-400 px-4 py-2 text-base font-bold text-red-100 shadow-md hover:bg-red-400 hover:text-white ${className}`}
       {...rest}
     >
       {children}

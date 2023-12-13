@@ -27,14 +27,14 @@ export default function Layout({ title, children, currentPath }: Props) {
 
       <style>{`* { box-sizing: border-box; margin: 0; outline: none; color: unset; }`}</style>
 
-      <body class="bg-gray-100 font-lato m-0 text-base">
-        <header class="border-b-solid border-b-1 fixed sticky flex w-full gap-16 border-slate-200 bg-white py-3 pl-10 pr-4 leading-5">
+      <body class="font-lato m-0 bg-gray-100 text-base">
+        <header class="border-b-solid border-b-1 fixed sticky flex w-full gap-4 border-slate-200 bg-slate-200 py-3 px-4 leading-5">
           <a href="/" class="no-underline">
             <h1>hyperwave 🌊</h1>
           </a>
           <div class="relative hidden md:block">
             <Input
-              class="w-80"
+              class="w-80 bg-white"
               placeholder="Search clients, trips, groups, or invoices..."
             />
             <span class="relative right-8 top-0.5 fill-neutral-500">
@@ -45,7 +45,7 @@ export default function Layout({ title, children, currentPath }: Props) {
 
         <Nav currentPath={currentPath} />
 
-        <main class="m-auto flex flex-col justify-center gap-8 px-10 py-4 pl-20 md:pl-60">
+        <main class="m-auto flex flex-col justify-center gap-8 py-4 pl-20 md:pl-60 md:pr-10">
           {children}
         </main>
       </body>

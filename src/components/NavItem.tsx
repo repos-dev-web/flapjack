@@ -8,7 +8,7 @@ type NavItemProps = {
 export default function NavItem({ currentPath, route }: NavItemProps) {
   return (
     <li
-      class={`hover:bg-slate-700 text-slate-400 m-0 w-full list-none pl-6 hover:text-white ${
+      class={`m-0 w-full list-none pl-6 text-slate-400 hover:bg-slate-700 hover:text-white ${
         currentPath === route.link && "bg-slate-700 text-white"
       }`}
     >

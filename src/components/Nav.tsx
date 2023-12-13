@@ -4,7 +4,7 @@ import { routes } from "../routes";
 
 export default function Nav({ currentPath }: { currentPath: string }) {
   return (
-    <aside class="bg-slate-800 transition-width group fixed top-14 block h-full w-16 leading-5 duration-200 hover:w-56 md:w-56">
+    <aside class="transition-width group fixed top-14 block h-full w-16 bg-slate-800 leading-5 duration-200 hover:w-56 md:w-56">
       <nav>
         <ul class="m-0 flex w-full flex-col items-center p-0">
           <PinkButton class="items-start! justify-start! my-4 w-5/6 pl-5">
