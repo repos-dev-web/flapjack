@@ -14,7 +14,7 @@ export default function Layout({ title, children, currentPath }: Props) {
       <head>
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <meta name="description" content="hyperwave" />
+        <meta name="description" content="flapjack 🥞" />
         <title>{title}</title>
         <link
           rel="icon"
@@ -30,7 +30,7 @@ export default function Layout({ title, children, currentPath }: Props) {
       <body class="font-lato m-0 bg-gray-100 text-base">
         <header class="border-b-solid border-b-1 fixed sticky flex w-full gap-4 border-slate-200 bg-slate-200 py-3 px-4 leading-5">
           <a href="/" class="no-underline">
-            <h1>hyperwave 🌊</h1>
+            <h1>flapjack 🥞</h1>
           </a>
           <div class="relative hidden md:block">
             <Input

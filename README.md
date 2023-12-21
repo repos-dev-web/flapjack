@@ -19,14 +19,9 @@ Visit port 3000 and edit `server.tsx`
 
 ### Demo
 
-
 https://github.com/tireymorris/hyperwave/assets/3528600/ade1b785-c1b9-4bf8-be2b-3b07f2ae17f7
 
-
-
-
 ---
-
 
 ### Example
 
@@ -35,7 +30,7 @@ This is the endpoint serving our initial landing page:
 ```typescript
 app.get("/", ({ html }) =>
   html(
-    <Layout title="hyperwave">
+    <Layout title="flapjack 🥞">
       <section class="flex flex-col gap-8">
         <div>
           <button

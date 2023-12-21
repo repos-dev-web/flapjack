@@ -1,6 +1,6 @@
 {
-  "name": "hyperwave",
-  "version": "1.0.50",
+  "name": "flapjack",
+  "version": "1.0.51",
   "scripts": {
     "build": "bun css && bun build --compile ./src/server.tsx",
     "css": "unocss \"src/**/*.tsx\" -o public/styles/uno.css",

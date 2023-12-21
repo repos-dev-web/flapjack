@@ -14,7 +14,7 @@ app.use("*", logger());
 app.get("/", (c) => c.redirect("/dashboard"));
 app.get("/dashboard", async ({ html }) =>
   html(
-    <Layout title="Hyperwave" currentPath="/dashboard">
+    <Layout title="flapjack 🥞" currentPath="/dashboard">
       <PinkButton class="w-40" hx-get="/editUser">
         Get User Info
       </PinkButton>
