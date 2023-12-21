@@ -1,8 +1,8 @@
-# hyperwave 🌊
+# flapjack 🥞
 
 https://hyperwave.codes/
 
-hyperwave is a server-side framework for building web applications.
+flapjack is a server-side framework for building web applications.
 
 - fast: Bun and Hono for best-in-class performance
 - lightweight: ~20kb payload. Demo loads in a couple seconds even while throttled to 2G.
